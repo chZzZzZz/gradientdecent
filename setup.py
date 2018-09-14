@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from setuptools import setup, find_packages
 
 setup(
@@ -9,6 +10,6 @@ setup(
     author='chZzZzZz',
     author_email='chzzz714@gmail.com',
     description='gradientdecent implementation',
-    long_description=open("Readme.md").read(),
+    long_description=open("README.md",'r',encoding='UTF-8').read(),
     long_description_content_type='text/markdown'
 )
