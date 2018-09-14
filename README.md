@@ -18,7 +18,7 @@ python setup.py install
 ## Usage example 使用示例
 Using the Boston dataset from sklearn as an example
 
-```
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,6 +56,7 @@ The current gradient decent contains the following params:
  
 ## References
 [https://www.chzzz.club/post/144.html]
+
 [http://sofasofa.io/tutorials/python_gradient_descent/]
 
 ## License 授权协议
