@@ -28,7 +28,7 @@ from sklearn.datasets import load_boston
 boston = load_boston()
 X,y = boston.data,boston.target
 
-lr = LRGrad(X,y,'SGD',alpha=0.2,epoch=100)
+lr = LRGrad(X,y,'SGD',alpha=0.1,epoch=1)
 history,best_theta = lr.run()
 lr.plot_loss(history)
 ```
