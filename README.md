@@ -1,4 +1,5 @@
 # gradient decent implementation
+[![](https://travis-ci.org/chZzZzZz/gradientdecent.svg?branch=master)](https://travis-ci.org/chZzZzZz/gradientdecent)
 
 > An implementation of gradient decent solving **Regression** problems including Batch gradient decent,SGD and Mini-batch gradient decent
 
