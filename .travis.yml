@@ -3,5 +3,6 @@
     - "3.6"
   install:
     - sudo apt-get update
+    - pip install -r requirements.txt
     - python setup.py install
-  script: python -m unittest discover
+  script: python tests/gradient_tests.py
